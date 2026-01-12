@@ -51,10 +51,7 @@ MyPass is a simple local password manager built with Python and Tkinter. It gene
   - `tkinter` (standard library)
   - `pyperclip` for clipboard integration
 
-Install `pyperclip` with:
-
-```bash
-pip install pyperclip
+Install `pyperclip`
 
 ##How to Run
 1.Place these files in the same folder:
