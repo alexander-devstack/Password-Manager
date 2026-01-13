@@ -89,7 +89,6 @@ Core application code:
 ### `data.json`
 
 - JSON file storing credentials in this structure:
-  ```json
   {
     "Amazon": {
       "email": "example@example.com",
@@ -101,7 +100,7 @@ Created/updated automatically by the app when you add entries.[file:370]
 logo.png / logo.jpg
 Lock icon used in the canvas as the app logo.[file:371]
 
-##Requirements
+## Requirements
 1.Python 3.10 or higher.
 2.Modules:
 -tkinter (standard library)
@@ -111,7 +110,7 @@ Install pyperclip with:
 bash
 pip install pyperclip
 
-##How to Run
+## How to Run
 1.Place these files in the same folder:
 -main.py
 -logo.png (or rename your logo file to match the filename used in main.py)
@@ -121,13 +120,13 @@ pip install pyperclip
 bash
 python main.py
 
-##Usage:
+## Usage:
 1.Type a website and email/username.
 2.Click Generate Password to create a strong password and copy it to the clipboard.
 3.Click Add to save the entry to data.json.
 4.To look up an existing entry, type the website and click Search; the stored email and   password will be shown if found.[file:372][file:370]
 
-##Security Notes
+## Security Notes
 Credentials are stored in plain JSON on disk; this is fine for learning but not secure for real‑world sensitive passwords.
 
 A production‑grade manager would add encryption, a master password, and more robust protection. This project focuses on demonstrating Tkinter, json, file I/O, and basic error handling.[file:372]
